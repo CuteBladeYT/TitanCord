@@ -1,45 +1,32 @@
-# electron-quick-start
+# TitanCord
+## Discord client based on [Titan Bot](https://titanembeds.com/)
 
-**Clone and run for a quick way to see Electron in action.**
+#### Table of Contents
+- [How to Install](#how-to-install)
+- [How to Use](#how-to-use)
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
-
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
-
-A basic Electron application needs just these files:
-
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
-
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
-
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
+### How to Install
+**Make sure you have [NodeJS](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed**
+1. Open terminal and
 ```
+git clone https://github.com/CuteBladeYT/TitanCord
+cd TitanCord
+```
+2. Type `npm i`
+3. Type `echo $PWD` and copy output
+4. Type `npx electron-packager 'app_directory' 'TitanCord' --overwrite --platform=OPERATING_SYSTEM --arch=x64 --prune=true --out=build` but remember to replace `app_directory` with output you copied in point 3 and `OPERATING_SYSTEM` with - depending if you use Windows (win32) or Linux (linux)
+5. Done!
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-## Resources for Learning Electron
+### How to Use
+While in app first you'll see Titan's homepage. On the top of screen you'll notice input field with `Discord Server ID` placeholder. You need discord server's ID to connect to the server. The server also must have Titan Bot invited to make it work.<br>
+To copy server ID, right click on server's icon or left click on server icon then right click on server's name, then copy ID.
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+![image](https://user-images.githubusercontent.com/78739707/150657220-9c5c2e7e-3562-47e0-adc9-02f549e5eea1.png)
 
-## License
+Then to connect in TitanCord, you need to paste the ID in the input field then left click on `Change Server` button
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+![image](https://user-images.githubusercontent.com/78739707/150657247-2578ebf6-9b00-4ef2-8da2-409f1edf9518.png)
+
+then you will automatically get connected to the server and ready to chat!<br>
+You can both login with your Discord account or as Guest.
