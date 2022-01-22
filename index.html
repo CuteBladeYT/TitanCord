@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TitanCord - Titan Embedded Discord</title>
+
+    <link rel="icon" href="./titan/imgs/favicon.png">
+
+    <link rel="stylesheet" href="./titan/style.css">
+
+    <script src="./titan/script.js"></script>
+  </head>
+  <body oncontextmenu="return false">
+    <div class="header">
+      <input type="text" id="titanId" placeholder="Discord Server ID" value="">
+      <button class="titanChange" onclick="titan('changeId')" oncontextmenu="titan('reset')" title="Reset on right click">Change Server</button>
+
+      <img src="./titan/imgs/icon.png" class="titanIcon">
+      <a href="https://titanembeds.com/" class="titanName" onmouseover="titanIcon(1)" onmouseout="titanIcon(0)" target="_blank"><b>TitanCord</b></a>
+    </div>
+    <iframe src="https://titanembeds.com" class="titanEmbed" frameborder="0"></iframe>
+  </body>
+</html>
